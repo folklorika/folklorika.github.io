@@ -1,1 +1,60 @@
-Фолклорика
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+            background: url('home.jpg') center/cover no-repeat;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.7);
+            z-index: -1;
+        }
+
+        div {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 100px;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: darkred;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+    <title>Фолклорика</title>
+</head>
+
+<body>
+    <div>
+        <h1>Фолклорика</h1>
+        <p>"Фолклорика" е мобилно приложение с информация за български хора̀.</p>
+        <p><iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdNwT33qhCQ55H07NE3A5e13QcIahXaatlxin6dVDNhTrSqLw/viewform?embedded=true"
+                width="640" height="760" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+    </div>
+</body>
+
+</html>
